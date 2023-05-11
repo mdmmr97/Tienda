@@ -7,6 +7,8 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { HomeComponent } from './home/home.component';
 import { ImagenesListComponent } from './imagenes-list/imagenes-list.component';
+import { CategoriaComponent } from './categoria/categoria.component';
+import { ArticuloComponent } from './articulo/articulo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ImagenesListComponent } from './imagenes-list/imagenes-list.component';
     CabeceraComponent,
     NosotrosComponent,
     HomeComponent,
-    ImagenesListComponent
+    ImagenesListComponent,
+    CategoriaComponent,
+    ArticuloComponent
   ],
   imports: [
     BrowserModule,
