@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ImagenesListComponent } from './imagenes-list/imagenes-list.component';
 import { CategoriaComponent } from './categoria/categoria.component';
 import { ArticuloComponent } from './articulo/articulo.component';
+import { MonedaPipe } from './moneda.pipe';
+import { ArticuloCardComponent } from './articulo-card/articulo-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ArticuloComponent } from './articulo/articulo.component';
     HomeComponent,
     ImagenesListComponent,
     CategoriaComponent,
-    ArticuloComponent
+    ArticuloComponent,
+    MonedaPipe,
+    ArticuloCardComponent
   ],
   imports: [
     BrowserModule,

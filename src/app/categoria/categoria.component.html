@@ -1,1 +1,4 @@
-<p>categoria works!</p>
+<div class="contenedor">
+    <app-articulo-card *ngFor="let articulo of articulos" [articulo]="articulo" (click)="navegarArticulo($event)"></app-articulo-card>
+</div>
+
